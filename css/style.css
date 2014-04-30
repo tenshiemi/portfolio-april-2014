@@ -302,6 +302,16 @@ body {
   padding: 0 100px 0 100px;
 }
 
+.round-image {
+  position: relative;
+  border-radius: 75px;
+  height: 150px;
+  margin-left: 300px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 3px hsla(0,0%,0%,.3);
+}
+
 #profile-pic {
   height: 350px;
   width: 350px;
@@ -318,19 +328,19 @@ body {
 
 #body-profile {
   padding-top: 160px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   overflow: auto;
 }
 
 #body-output {
   background-color: hsl(6,100%,80%);
-  padding: 60px 0 60px 0;
+  padding: 60px 0 0 0;
   overflow: auto;
   clear: both;
 }
 
 #body-contact {
-  padding: 60px 0 60px 0;
+  padding: 60px 0 0 0;
   overflow: auto;
   clear: both;
 }
